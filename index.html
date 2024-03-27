@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+
+<body id="bg-color-mode" class="bg-dark">
+    <div class="container">
+        <div class="bg-light p-3 m-2">
+            <p id="jstest">
+                Javascript can change content on an HTML
+            </p>
+            <button type="button" class="btn btn-primary"
+                onclick="textSwitch()">
+                Click Me
+            </button>
+        </div>
+        <div class="bg-light p-3 m-2">
+            <button class="btn btn-primary" onclick="arrowTwo()">Solid</button>
+            <img id="arrowKey" src="img/arrow-circle-right.png" style="width:50px;" alt="">
+            <button class="btn btn-primary" onclick="arrowOne()">Clear</button>
+            <span>This is switching the placeholder img with a separate one</span>
+        </div>
+        <div class="bg-light p-3 m-2">
+            <button class="btn btn-primary" onclick="invisibility()">Disappear</button>
+            <img src="img/badge-check.png" style="width:50px" id="visibility" alt="">
+            <button class="btn btn-primary" onclick="visibility()">Reappear</button>
+            <span>This is switching the visibility style</span>
+        </div>
+        <div class="bg-light p-3 m-2">
+            <button class="btn btn-primary" onclick="windowAlert()">A Window Alert.</button>
+        </div>
+        <div class="bg-light p-3 m-2">
+
+        </div>
+        <div class="bg-light p-3 m-2">
+
+        </div>
+        <div class="bg-light p-3 m-2">
+
+        </div>
+    </div>
+</body>
+
+</html>
